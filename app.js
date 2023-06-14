@@ -102,7 +102,6 @@ removeAll.addEventListener("click", (e) => {
   //   // }
 
   localStorage.clear();
-
   location.reload();
 
   //   // checkLocalStorage();
@@ -112,9 +111,6 @@ removeAll.addEventListener("click", (e) => {
 // const hello = setTimeout(function () {
 //   alert("hadi yine iyisin");
 // }, 2000);
-// const armut = () => {
-
-// };
 
 // removeAll.addEventListener("click", (e) => {
 //   localStorage.clear();
