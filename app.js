@@ -100,16 +100,19 @@ removeAll.addEventListener("click", (e) => {
   //   //     todo.remove();
   //   //   });
   //   // }
+
   localStorage.clear();
+
   location.reload();
+
   //   // checkLocalStorage();
   // todoArr = [];
-
   //   // localStorage.setItem("todoArr", JSON.stringify(todoArr));
 });
-// const armut = () => {
-
+// const hello = setTimeout(function () {
 //   alert("hadi yine iyisin");
+// }, 2000);
+// const armut = () => {
 
 // };
 
