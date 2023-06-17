@@ -45,6 +45,7 @@ const createLi = (text) => {
 const addLocalStorage = (text) => {
   checkLocalStorage();
   todoArr.unshift(text);
+  console.log(todoArr);
   localStorage.setItem("todoArr", JSON.stringify(todoArr));
 };
 window.addEventListener("load", () => {
